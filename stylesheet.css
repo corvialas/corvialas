@@ -1,0 +1,189 @@
+/* Reset CSS (DO NOT DELETE) */
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Lucida Grande";
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+/*
+div {
+  display: block;
+}*/
+
+/* Write your code below */
+.top-wrapper {
+  background-image: url(https://prog-8.com/images/html/advanced/top_en.png);
+  background-size:cover;
+  color: white;
+  text-align: center;
+  padding:180px 0px 140px 0px;
+}
+
+.container {
+  padding: 0px 15px;
+}
+
+.container h1 {
+  font-size: 45px;
+  letter-spacing: 5px;
+  margin-bottom:10px;
+  opacity: 0.7;
+}
+
+.container p {
+  margin-bottom: 3px;
+  opacity: 0.7;
+}
+
+.btn-wrapper {
+  margin-top: 20px;
+}
+
+.btn {
+  color:white;
+  opacity:0.8;
+  padding:12px 24px;
+  border-radius: 4px;
+  display: inline-block;
+}
+
+.signup {
+  background-color:#239b76;
+}
+.facebook {
+  background-color:#3b5998;
+  margin-right: 10px;
+}
+.twitter {
+  background-color:#55acee;
+}
+
+.btn:hover {
+  opacity:1;
+}
+
+/* ------------ Header ------------ */
+header {
+  background-color: rgba(34,49,52,0.9);
+  height: 65px;
+  z-index: 10;
+  width: 100%;
+  position:fixed;
+}
+
+.header-left {
+  float:left;
+}
+
+.logo {
+  width:124px;
+  margin-top: 20px;
+  margin-left: 35px;
+  opacity:1;
+}
+
+.header-right{
+  background-color: rgba(255,255,255,0.3);
+  float:right;
+  margin-right:30px;
+}
+
+.header-right a {
+  color: white;
+  padding: 0 25px;
+  line-height: 65px;
+  opacity:1;
+}
+
+/*------------------Lessons------------------*/
+.lesson-wrapper {
+  text-align: center;
+  background-color:#f7f7f7;
+  height: 580px;
+  padding-left:35px;
+  padding-right:35px;
+}
+
+.heading {
+  color:#5f5d60;
+  padding-top: 60px;
+  padding-bottom: 30px;
+}
+
+.heading h2 {
+  font-weight:normal;
+}
+
+.lesson {
+  float: left;
+  width: 25%;
+}
+
+.lesson-icon {
+  position:relative;
+  
+}
+
+.lesson-icon p {
+  color: white;
+  position:absolute;
+  top: 90px;
+  width: 100%;
+  opacity: 1;
+}
+
+.txt-content {
+  color:#b3aeb5;
+  width: 80%;
+  font-size: 15px;
+  display:inline-block;
+  margin-top: 20px;
+}
+
+/*------------- Message -------------*/
+.message-wrapper {
+  text-align: center;
+}
+
+.message {
+  background-color: #5dca88;
+  opacity: 0.8;
+  box-shadow: 0 7px #1a7940;
+  padding: 15px 40px;
+  margin-bottom: 80px;
+  cursor: pointer;
+}
+
+.message:active {
+  position:relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+/*---------- Footer -------------*/
+footer {
+  border-top: 1px solid #eee;
+  padding-top: 30px;
+  padding-left: 35px;
+}
+
+.logo2 {
+  width: 124px;
+}
+
+footer p {
+  font-size:12px;
+  color:#b3aeb5;
+}
